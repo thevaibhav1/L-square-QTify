@@ -1,0 +1,49 @@
+.givebutton {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 150px;
+  height: 47px;
+  left: 1238px;
+  top: 13px;
+
+  background: #121212;
+  /* Primary 400 */
+
+  border: 1px solid #34c94b;
+  border-radius: 12px;
+}
+.text {
+  width: 138px;
+  height: 27px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.25px;
+
+  /* Primary 400 */
+
+  color: #34c94b;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
