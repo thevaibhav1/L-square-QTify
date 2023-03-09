@@ -39,3 +39,10 @@
   text-align: center;
   color: #ffffff;
 } */
+.headphone {
+  position: absolute;
+  width: 212px;
+  height: 212px;
+  left: 500px;
+  bottom: 70px;
+}
